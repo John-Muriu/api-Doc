@@ -2,6 +2,11 @@ openapi: 3.0.2
 info:
   version: "1.0.0"
   title: SwifttDial Bulk and Premium SMS API
+  servers:
+  - url: https://bulkdev.swifttdial.com:2778
+    description: Sandbox server
+  - url: //sms.api.swifttdial.com:2778
+    description: Default server
   description: >
 #    # Usage Overview
 
@@ -26,16 +31,6 @@ info:
   license:
     name: Apache 2.0
     url: 'https://app.sms.swifttdial.com'
-  servers:
-  - url: https://bulkdev.swifttdial.com:2778
-    description: Sandbox server
-  - url: //sms.api.swifttdial.com:2778
-    description: Default server
-  tags:
-  - name: Bulk SMS
-    description: Send Bulk Promotional or/and Transactional messages
-  - name: Premium SMS/ subscription sms
-    description: Premium Sms Messages
 paths:
   /outbox/create:
     post:
@@ -452,17 +447,17 @@ components:
       type: string
       description: An enumeration.
       enum:
-        - 1
-        - 2
-        - 3
+        - '1'
+        - '2'
+        - '3'
     BulkSMSRequestType:
       title: BulkSMSMessageRequestType
       type: string
       description: An enumeration.
       enum:
-        - 1
-        - 2
-        - 3
+        - '1'
+        - '2'
+        - '3'
     BulkSMSRequest:
       title: BulkSMSRequest
       required:
