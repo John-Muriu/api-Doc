@@ -2,7 +2,7 @@ openapi: 3.0.2
 info:
   version: "1.0.0"
   title: SwifttDial Bulk and Premium SMS API
-  servers:
+  Servers:
   - url: https://bulkdev.swifttdial.com:2778
     description: Sandbox server
   - url: //sms.api.swifttdial.com:2778
