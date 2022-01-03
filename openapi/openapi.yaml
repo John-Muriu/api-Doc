@@ -3,7 +3,7 @@ info:
   version: "1.0.0"
   title: SwifttDial Bulk and Premium SMS API
   Servers:
-  - url: https://bulkdev.swifttdial.com:2778
+    url: https://bulkdev.swifttdial.com:2778
     description: Sandbox server
   description: >
 #    # Usage Overview
