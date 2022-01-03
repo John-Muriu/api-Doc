@@ -5,8 +5,6 @@ info:
   Servers:
   - url: https://bulkdev.swifttdial.com:2778
     description: Sandbox server
-  - url: //sms.api.swifttdial.com:2778
-    description: Default server
   description: >
 #    # Usage Overview
 
